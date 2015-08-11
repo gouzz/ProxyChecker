@@ -10,6 +10,11 @@ import java.util.concurrent.TimeUnit;
 
 public class Controller {
 
+
+        /* TO DO:
+        - Why aren't the proxies added right before being tested?
+        */
+
         @FXML private TextArea TEXTAREAProxy;
         @FXML private TextArea TEXTAREAWorkingProxy;
         @FXML private TextField TEXTFIELDtimeOut;
