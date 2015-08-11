@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <effect>
+      <Blend />
+   </effect>
+   <children>
+      <TextArea fx:id="TEXTAREAWorkingProxy" layoutX="195.0" layoutY="14.0" prefHeight="231.0" prefWidth="171.0" promptText="Working proxies">
+         <effect>
+            <Blend>
+               <topInput>
+                  <Blend />
+               </topInput>
+            </Blend>
+         </effect>
+         <padding>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </padding>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextArea>
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="88.0" layoutX="315.0" layoutY="290.0" mnemonicParsing="false" onAction="#doSomething" prefHeight="25.0" prefWidth="51.0" text="Start" textAlignment="CENTER" />
+      <TextArea fx:id="TEXTAREAProxy" layoutX="14.0" layoutY="14.0" prefHeight="231.0" prefWidth="171.0" promptText="Proxies to check - &quot;ip:port&quot;">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend>
+               <topInput>
+                  <Blend />
+               </topInput>
+            </Blend>
+         </effect>
+         <padding>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </padding>
+      </TextArea>
+      <TextField fx:id="TEXTFIELDtimeOut" alignment="CENTER" blendMode="DARKEN" layoutX="14.0" layoutY="260.0" prefHeight="25.0" prefWidth="79.0" promptText="TimeOut (ms)">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+      <TextField fx:id="TEXTFIELDnumberThreads" alignment="CENTER" layoutX="101.0" layoutY="260.0" prefHeight="25.0" prefWidth="85.0" promptText="Threads #">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+      <TextField fx:id="TEXTFIELDurl" alignment="CENTER" layoutX="195.0" layoutY="260.0" prefHeight="25.0" prefWidth="171.0" promptText="URL">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
