@@ -23,7 +23,6 @@ public class Controller {
             int numOfThreads = Integer.parseInt(TEXTFIELDnumberThreads.getText());
             int timeOut = Integer.parseInt(TEXTFIELDtimeOut.getText());
 
-
             String url = TEXTFIELDurl.getText();
             String urlF = "https://";
 
