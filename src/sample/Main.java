@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Proxy Checker by gouzz");
+        primaryStage.setTitle("Proxy-Checker by gouzz");
         primaryStage.setScene(new Scene(root, 385, 322));
         primaryStage.show();
     }

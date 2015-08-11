@@ -67,6 +67,7 @@ public class Loop extends Thread {
         if (response == 200) {
             System.out.println("Working : " + proxyIP + ":" + proxyPORT);
             k.appendText(proxyIP + ":" + proxyPORT + "\n");
+
         } else {
             System.out.println("Not Working : " + proxyIP + ":" + proxyPORT);
         }
